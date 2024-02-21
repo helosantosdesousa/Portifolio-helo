@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portifolio Helo</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- icons bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon-16x16.png" type="image/x-icon">
+
+    
+</head>
+
+<!-- BARRA DE NAVEGACAO -->
+<div class="container-fluid p-0" id="navbar">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex justify-content-between align-items-center" id="container-nav">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-code-slash"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto" id="navbar-itens">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#habilidades">Competências</a>
+                    <a class="nav-link" href="#projetos">Projetos</a>
+                    <a class="nav-link" href="#rodape">Contato</a>
+                    <a class="nav-link" href="your.website" target="_blank">
+                        <img src="./img/english.png" alt="Bandeira do Reino Unido">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container-fluid" id="home">
+    <div class="container">
+        <div class="row align-items-center justify-content-center p-2 text-center flex-md-row flex-column-reverse">
+            <div class="col mt-2">
+                <h1>Olá, eu sou a <span id="span-nome">Heloísa Santos </span> =) </h1>
+                <h4>Estudante de Sistemas de Informação</h4>
+
+                <div class="d-grid d-md-block m-3" id="btn-container">
+                    <ul class="mb-0 mt-3 d-flex flex-nowrap justify-content-center">
+                        <li class="d-inline me-2">
+                            <a href="./curriculo helo.pdf" download="" target="_blank" class="btn">
+                                Download CV
+                            </a>
+                        </li>
+                        <li class="d-inline me-2">
+                            <a href="mailto:helosantosdesousa@gmail.com" target="_blank" class="btn">
+                                ✉️ Contato
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+                <div class="d-grid d-md-block" id="icon-container">
+                    <ul class="icons mt-3 ">
+                        <li class="d-inline me-2">
+                            <a href="https://github.com/helosantosdesousa" target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </li>
+                        <li class="d-inline">
+                            <a href="https://www.linkedin.com/in/helo%C3%ADsa-santos-90b310289/" target="_blank">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="./img/helo.jpeg" class="img-fluid rounded mx-auto d-block" alt="Foto da Heloísa: Mulher jovem usando óculos com camiseta branca e coque" id="imgHelo">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BARRA DE SKILLS -->
+<div class="container-fluid pt-4 pb-3" id="skills">
+    <ul class="d-flex flex-wrap justify-content-end" id="listaSkills">
+        <li><img src="./img/html.png" alt="Logo HTML" class="skill-icon"></li>
+        <li><img src="./img/css.png" alt="Logo CSS" class="skill-icon"></li>
+        <li><img src="./img/js.png" alt="Logo JavaScript"  class="skill-icon"></li>
+        <li><img src="./img/bootstrap.png" alt="Logo BootStrap"  class="skill-icon"></li>
+        <li><img src="./img/java.svg" alt="Logo Java"  class="skill-icon"></li>
+    </ul>
+</div>
+
+<!-- PROJETOS -->
+<div class="container-fluid pt-4 pb-3" id="projetos">
+    <div class="container text-center">
+        <div class="row align-items-center justify-content-center p-5 text-center flex-md-row flex-column-reverse">
+          <div class="col py-5">
+            <h2 class="titulo-projetos my-5"> Uma pequena <span> apresentação</span>...</h2>
+           <p> Estudante de Sistemas de Informação na FIAP atualmente cursando o segundo ano. Tenho interesse em diversas áreas, incluindo desenvolvimento Front-End e Back-End, games, cibersegurança e Inteligência Artificial, mas estou aberta a diversas experiências.
+             </p>
+            <p> Meu interesse pela tecnologia surgiu na infância, gostava de explorar os programas do computador e me imaginava criando coisas novas, inspirada pelos filmes.
+            </p>
+          </div>
+          <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/robot fighter.gif" class="d-block w-100" alt="GIF de um jogo de combate em dupla de robôs">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/projeto fnaf.gif" class="d-block w-100" alt="GIF de um jogo em um console">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/jogo da memoria.gif" class="d-block w-100" alt="GIF de um jogo da memória tematizado com a série 'Alquimia das almas'">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/aluraplus.gif" class="d-block w-100" alt="GIF da navegação de um site simulando a Alura+">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- HABILIDADES -->
+<div class="container-fluid pt-4 pb-3" id="habilidades">
+    <div class="container text-center">
+        <h2 class="my-5">Habilidades e estudos</h2>
+        <div class="row align-items-center flex-md-row flex-column-reverse">
+          <div class="col">
+            <h3>Inglês Avançado C1</h3>
+                <p> Fiz um curso de inglês com duração de seis anos na LS Idiomas e atualmente estou me preparando para fazer o FCE (First Cambridge Exam) em novembro para comprovar meu nível C1. Também já realizei alguns trabalhos de tradução de textos e atuei como mentora e freelancer para amigos.
+                    </p>
+          </div>
+          <div class="col">
+            <h3> Soft Skills e Hard Skills</h3>
+                <li>
+                    Vontade de aprender
+                </li>
+                <li>
+                    Flexibilidade
+                </li>
+                <li>
+                    Criatividade
+                </li>
+                <li>
+                    Trabalhos em grupo
+                </li>
+                <li>
+                    Espanhol básico B1
+                </li>
+                <li>
+                    Desenvolvimento Full-Stack
+                </li>
+                <li>
+                    Modelagem de dados básico
+                </li>
+                <li>
+                    Pacote office intermediário
+                </li>
+          </div>
+          <div class="col">
+            <h3> Atividades extra-curriculares </h3>
+                <p>
+                    Concluí um curso de HTML e CSS na Coursera, oferecido pelo Google e ministrado inteiramente em inglês. Além disso, graças ao benefício de mérito acadêmico FIAP + Alura, estou aproveitando a oportunidade para realizar cursos em diversas áreas, incluindo Data Science, Front-End e Back-End.
+
+Durante o primeiro ano do curso, participei da criação de um robô para a competição Robocup, projetado para atacar os adversários atingindo uma bexiga.
+
+                </p>
+          </div>
+          
+        </div>
+      </div>    
+</div>
+
+<!-- RODAPÉ CONTATO -->
+<div class="container-fluid pt-4 pb-3" id="rodape">
+    <ul class="text-center">
+        <li class="fw-bold">Heloísa Santos</li>
+        <li>helosantosdesousa@gmail.com</li>
+        <li>SP</li>
+        <a href="#home">
+            <i class="bi bi-arrow-up-circle-fill"></i>
+        </a>
+        
+    </ul>
+    
+</div>
+
+</html>

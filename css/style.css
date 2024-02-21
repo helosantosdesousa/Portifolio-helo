@@ -1,0 +1,130 @@
+:root {
+    --roxo-nav: #7909d4;
+    --container-roxo-escuro:  #411183;
+    --container-roxo: #4e00b5;
+    --roxo-mais-escuro: rgb(35, 0, 91);
+    --roxo-mais-claro: #CCA9E8;
+    --roxo-medio: rgb(193, 137, 239);
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #bcacd0;
+}
+
+.nav-link{ 
+    font-size: 20px !important;
+    color: #fff;
+}
+#navbar{
+    background-color: var(--roxo-nav);
+    
+}
+#navbar a > img{
+    width: 30px;
+    height: 20px;
+}
+#navbar a > img:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.navbar-brand{
+    color: #fff;
+}
+
+#home {
+    background-color: var(--container-roxo-escuro);
+}
+
+#home span {
+    color: var(--branco);
+}
+
+#home h1 {
+    color: var(--roxo-medio);
+}
+#home h4{
+color: var(--cinza);
+}
+
+#imgHelo{
+    width: 30em;
+    
+}
+#btn-container a.btn {
+    background-color: var(--roxo-nav);
+}
+
+#btn-container a.btn:hover {
+    background-color: var(--roxo-mais-claro);
+    border: none;
+}
+
+
+.icons i {
+    font-size: 25px;
+    color: var(--roxo-mais-claro);
+}
+
+.icons i:hover {
+    transition: .6;
+    color: var(--roxo-claro);
+}
+
+#skills {
+    background-color: var(--roxo-mais-escuro);
+}
+
+#listaSkills li:not(:last-child) {
+    margin-right: 2em;
+}
+
+li {
+    list-style-type: none;
+}
+#listaSkills >li:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#projetos{
+    background-color: var(--container-roxo-escuro);
+    color: var(--cinza);
+}
+
+.titulo-projetos {
+    color: var(--roxo-medio);
+}
+   
+.titulo-projetos span{
+    color: var(--branco);
+}
+#habilidades {
+    background-color: var(--container-roxo-escuro);
+    margin-bottom: 0;
+    color: var(--branco);
+}
+#habilidades h3{
+    color: var(--roxo-medio);
+}
+#habilidades p, li{
+color: var(--cinza);
+}
+#rodape{
+    background-color: var(--container-roxo);
+    color: var(--branco);
+
+}
+#rodape i{
+    color: var(--branco);
+    font-size: 20px;
+}
+#rodape i:hover{
+    color: var(--roxo-nav);
+
+}
+
+
