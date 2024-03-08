@@ -55,6 +55,7 @@ color: var(--cinza);
 
 #btn-container a.btn:hover {
     background-color: var(--roxo-mais-claro);
+    color: var(--contaixar-roxo-escuro);
     border: none;
 }
 
